@@ -1,0 +1,6 @@
+transformers==4.46.1
+huggingface_hub
+runpod
+snac
+soundfile
+numpy
