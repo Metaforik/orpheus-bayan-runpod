@@ -121,9 +121,11 @@ def handler(job):
             "error_type": type(e).__name__,
         }
 
-
-runpod.serverless.start(
-    {
+if __name__ == "__main__":
+    runpod.serverless.start({
         "handler": handler
-    }
-)
+    })
+
+
+
+
